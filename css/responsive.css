@@ -1,0 +1,162 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    .navbar-brand > img {
+        padding-top: 13px;
+    }
+    .bgimg .heading h1{
+        font-size: 50px;
+    }
+    
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .img-hover-effect{
+    }
+    .navbar-brand > img{
+        padding-top: 17px;
+    }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    .navbar-brand > img {
+        padding-top: 13px;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .total-content-wrapper .navbar-brand>img {
+        height: 27px;
+    }
+    .total-content-wrapper .navbar-nav>li>a {
+        margin-top: 10px;
+        margin-bottom: 7px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .total-content-wrapper .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+        border-radius: 0;
+        background-color: transparent;
+        
+    }
+    .bgimg .heading h1 {
+        font-size: 37px;
+        line-height: 35px;
+    }
+    .heading p {
+        font-size: 27px;
+    }
+    .thumb-text p{
+        padding: 1%
+    }
+    .thumb-text h1{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .signup input[type="email"]{
+        width: 320px;
+    }
+    .newsletter .heading-text p{
+        padding-top: 40px;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .bgimg .heading h1 {
+        font-size: 23px;
+        line-height: 35px;
+    }
+    .heading p {
+        font-size: 17px;
+    }
+    .thumb-text h1 {
+        font-size: 27px;
+        padding-bottom: 10px;
+        padding-top: 4px;
+    }
+    .thumb-text p {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+/*
+    .img-hover-effect {
+        border-radius: 4px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+*/
+    .btn {
+        padding: 6px 24px;
+        margin-bottom: 50px;
+    }
+    .#section3.bgimg, {
+        display: block;
+        background-size: contain;
+    }
+    .heading-text{
+        padding-bottom: 35px;
+    }
+    .newsletter .heading-text p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .signup input[type="email"]{
+        width: 237px;
+    }
+    .signup a {
+        padding: 12px 20px;
+    }
+    .text-info h1{
+        font-size: 25px;
+    }
+    .text-info p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .newsletter .heading-text p {
+	    padding-top: 33px;
+    }
+    .total-content-wrapper .navbar-nav > li > a {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+}
